@@ -27,24 +27,24 @@
             <div class="menuListWrapper">
                 <ul class="listItems">
                     <li>
-                        <a href="#home">{{ __('home') }}</a>
+                        <a href="#home">{{ __('Home') }}</a>
                     </li>
                     <li>
-                        <a href="#features">{{ __('features') }}</a>
+                        <a href="#features">{{ __('Features') }}</a>
                     </li>
                     <li>
-                        <a href="#about-us">{{ __('about_us') }}</a>
+                        <a href="#about-us">{{ __('About us') }}</a>
                     </li>
                     <li>
-                        <a href="#pricing">{{ __('pricing') }}</a>
+                        <a href="#pricing">{{ __('Pricing') }}</a>
                     </li>
                     @if (count($faqs))
                         <li>
-                            <a href="#faq">{{ __('faqs') }}</a>
+                            <a href="#faq">{{ __('Faqs') }}</a>
                         </li>    
                     @endif
                     <li>
-                        <a href="#contact-us">{{ __('contact') }}</a>
+                        <a href="#contact-us">{{ __('Contact') }}</a>
                     </li>
                     @if (count($guidances))
                         <li>
