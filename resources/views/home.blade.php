@@ -68,7 +68,7 @@
                         <div class="dropdown">
                             <a class="btn btn-secondary dropdown-toggle" href="#" role="button"
                                 id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                                {{ __('language') }}
+                                {{ __('Language') }}
                             </a>
 
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -90,8 +90,8 @@
             </div>
 
             <div class="loginBtnsWrapper">
-                <button class="commonBtn redirect-login">{{ __('login') }}</button>
-                <button class="commonBtn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">{{ __('start_trial') }}</button>
+                <button class="commonBtn redirect-login">{{ __('Login') }}</button>
+                <button class="commonBtn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">{{ __('Start Trial') }}</button>
                 {{-- <a href="{{ url('school/registration') }}" class="commonBtn">{{ __('start_trial') }}</a> --}}
             </div>
         </div>
