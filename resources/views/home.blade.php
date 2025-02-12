@@ -110,24 +110,24 @@
             <div class="offcanvas-body">
                 <ul class="listItems">
                     <li>
-                        <a href="#home">{{ __('home') }}</a>
+                        <a href="#home">{{ __('Home') }}</a>
                     </li>
                     <li>
-                        <a href="#features">{{ __('features') }}</a>
+                        <a href="#features">{{ __('Features') }}</a>
                     </li>
                     <li>
-                        <a href="#about-us">{{ __('about_us') }}</a>
+                        <a href="#about-us">{{ __('About Us') }}</a>
                     </li>
                     <li>
-                        <a href="#pricing">{{ __('pricing') }}</a>
+                        <a href="#pricing">{{ __('Pricing') }}</a>
                     </li>
                     @if (count($faqs))
                         <li>
-                            <a href="#faq">{{ __('faqs') }}</a>
+                            <a href="#faq">{{ __('Faqs') }}</a>
                         </li>    
                     @endif
                     <li>
-                        <a href="#contact-us">{{ __('contact') }}</a>
+                        <a href="#contact-us">{{ __('Contact') }}</a>
                     </li>
                     @if (count($guidances))
                         <li>
@@ -168,8 +168,8 @@
                 </ul>
 
                 <div class="loginBtnsWrapper">
-                    <button class="commonBtn redirect-login">{{ __('login') }}</button>
-                    <button class="commonBtn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">{{ __('start_trial') }}</button>
+                    <button class="commonBtn redirect-login">{{ __('Login') }}</button>
+                    <button class="commonBtn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">{{ __('Start Trial') }}</button>
                     <!--<button class="commonBtn redirect-login">{{ __('login') }}</button>-->
                     {{-- <a href="{{ url('/login') }}" class="commonBtn">{{ __('login') }}</a> 
                     <button class="commonBtn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">{{ __('start_trial') }}</button> --}}
@@ -198,8 +198,8 @@
                                 <span class="commonText">
                                     {{ $settings['hero_description'] }}</span>
                                 <div class="d-flex">
-                                    <button class="commonBtn" style="margin-right: 40px" data-bs-toggle="modal" data-bs-target="#staticBackdrop">{{ __('register_your_school') }}</button>                           
-                                    <a href="{{ $demoSchoolUrl ?? url('/') }}" target="_blank" class="commonBtn">{{ __('demo_school') }}</a>
+                                    <button class="commonBtn" style="margin-right: 40px" data-bs-toggle="modal" data-bs-target="#staticBackdrop">{{ __('Register your school') }}</button>                           
+                                    <a href="{{ $demoSchoolUrl ?? url('/') }}" target="_blank" class="commonBtn">{{ __('Demo school') }}</a>
                                 </div>       
                             </div>
                         </div>
@@ -234,7 +234,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="sectionTitle">
-                    <span>{{ __('explore_our_top_features') }}</span>
+                    <span>{{ __('Explore our top features') }}</span>
 
                 </div>
             </div>
@@ -263,7 +263,7 @@
                         
                     @endforeach
                     <div class="col-12">
-                        <button class="commonBtn view-more-feature" value="1">{{ __('view_more_features') }}</button>
+                        <button class="commonBtn view-more-feature" value="1">{{ __('View more features') }}</button>
                     </div>
                 </div>
             </div>
@@ -472,7 +472,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="sectionTitle">
-                        <span>{{ __('flexible_pricing_packages') }}</span>
+                        <span>{{ __('Flexible pricing packages') }}</span>
 
                     </div>
                 </div>
@@ -539,7 +539,7 @@
                                                     @endif
                                                 @endforeach
                                             </div>
-                                            <button class="pricingBtn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">{{ __('get_started') }}</button>
+                                            <button class="pricingBtn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">{{ __('Get started') }}</button>
                                         </div>
                                     </div>
                                 </div>
@@ -600,7 +600,7 @@
                                                     @endif
                                                 @endforeach
                                             </div>
-                                            <button class="pricingBtn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">{{ __('get_started') }}</button>
+                                            <button class="pricingBtn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">{{ __('Get started') }}</button>
                                         </div>
                                     </div>
                                 </div>
@@ -620,7 +620,7 @@
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-6">
                         <div>
-                            <p class="title">{{ __('custom_package') }}</p>
+                            <p class="title">{{ __('Custom package') }}</p>
                             <p class="desc">
                                 {{ $settings['custom_package_description'] ?? '' }}
                             </p>
@@ -628,7 +628,7 @@
                     </div>
 
                     <div class="col-sm-12 col-md-6 col-lg-6">
-                        <a href="#contact-us" class="commonBtn text-center">{{ __('get_in_touch') }}</a>
+                        <a href="#contact-us" class="commonBtn text-center">{{ __('Get in touch') }}</a>
                     </div>
 
                 </div>
@@ -642,7 +642,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="sectionTitle">
-                            <span>{{ __('frequently_asked_questions') }}</span>
+                            <span>{{ __('Frequently asked questions') }}</span>
 
                         </div>
                     </div>
@@ -682,8 +682,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="sectionTitle">
-                        <span class="greenText">{{ __('lets_get_in_touch') }}</span>
-                        <span>{{ __('have_a_question_or_just_want_to_say_hi_Wed_love_to_hear_from_you') }}
+                        <span class="greenText">{{ __('Lets get in touch') }}</span>
+                        <span>{{ __('Have a question or just want to say hi Wed love to hear from you') }}
                         </span>
 
                     </div>
@@ -694,14 +694,14 @@
                                     @csrf
                                     <div class="card">
                                         <div>
-                                            <input type="text" required name="name" id="name" placeholder="{{ __('enter_your_name') }}">
+                                            <input type="text" required name="name" id="name" placeholder="{{ __('Enter your name') }}">
                                         </div>
                                         <div>
-                                            <input type="email" required name="email" id="email" placeholder="{{ __('enter_your_email') }}">
+                                            <input type="email" required name="email" id="email" placeholder="{{ __('Enter your email') }}">
                                         </div>
                                         <div>
                                             <textarea name="message" required id="message" cols="30" rows="6"
-                                                placeholder="{{ __('send_your_message') }}"></textarea>
+                                                placeholder="{{ __('Send your message') }}"></textarea>
                                         </div>
                                         @if (config('services.recaptcha.key') ?? '')
                                             <div>
@@ -709,7 +709,7 @@
                                             </div>    
                                         @endif
                                         <div>
-                                            <button class="commonBtn">{{ __('send') }}</button>
+                                            <button class="commonBtn">{{ __('Send') }}</button>
                                         </div>
                                         <div>
                                             <img src="{{ asset('assets/landing_page_images/GetInTouchDots.png') }}" class="sideImg dots" alt="">
@@ -723,8 +723,8 @@
                                         <span class="icon"><i class="fa-solid fa-phone-volume"></i></span>
                                     </div>
                                     <div>
-                                        <span>{{ __('phone') }}</span>
-                                        <span>{{ __('mobile') }} : {{ $settings['mobile'] ?? '' }}</span>
+                                        <span>{{ __('Phone') }}</span>
+                                        <span>{{ __('Mobile') }} : {{ $settings['mobile'] ?? '' }}</span>
                                     </div>
                                 </div>
                                 <div class="infoWrapper">
@@ -732,7 +732,7 @@
                                         <span class="icon"><i class="fa-solid fa-envelope-open-text"></i></span>
                                     </div>
                                     <div>
-                                        <span>{{ __('email') }}</span>
+                                        <span>{{ __('Email') }}</span>
                                         <span>{{ $settings['mail_send_from'] ?? 'example@gmail.com' }}</span>
                                     </div>
                                 </div>
@@ -741,7 +741,7 @@
                                         <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
                                     </div>
                                     <div>
-                                        <span>{{ __('location') }}</span>
+                                        <span>{{ __('Location') }}</span>
                                         <span>{{ $settings['address'] ?? '' }}</span>
                                     </div>
                                 </div>
@@ -764,7 +764,7 @@
             </div>
             <div class="col-lg-6 content">
                 <div class="text">
-                    <span class="title">{{ __('download_our_app_now') }}</span>
+                    <span class="title">{{ __('Download our app now') }}</span>
                     <span>
                         {{ $settings['download_our_app_description'] ?? '' }}
                     </span>

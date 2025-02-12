@@ -18,7 +18,7 @@
 
             <div class="col-sm-6 col-md-6 col-lg-2">
                 <div class="linksWrapper usefulLinksDiv">
-                    <span class="title">{{ __('links') }}</span>
+                    <span class="title">{{ __('Links') }}</span>
                     <span><a href="{{ url('/') }}">{{ __('home') }}</a></span>
                     <span><a href="{{ url('/#features') }}">{{ __('features') }}</a></span>
                     <span><a href="{{ url('/#pricing') }}">{{ __('pricing') }}</a></span>
@@ -28,10 +28,10 @@
 
             <div class="col-sm-6 col-md-6 col-lg-2">
                 <div class="linksWrapper">
-                    <span class="title">{{ __('info') }}</span>
+                    <span class="title">{{ __('Info') }}</span>
                     <span>
                         <a href="{{ url('/#about-us') }}">
-                            {{ __('about_us') }}
+                            {{ __('about us') }}
                         </a>
                     </span>
                     <span>
@@ -42,19 +42,19 @@
 
                     <span>
                         <a href="{{ url('page/type/privacy-policy') }}">
-                            {{ __('privacy_policy') }}
+                            {{ __('privacy policy') }}
                         </a>
                     </span>
 
                     <span>
                         <a href="{{ url('page/type/terms-conditions') }}">
-                            {{ __('terms_condition') }}
+                            {{ __('terms condition') }}
                         </a>
                     </span>
 
                     <span>
                         <a href="{{ url('page/type/refund-cancellation') }}">
-                            {{ __('refund_cancellation') }}
+                            {{ __('refund cancellation') }}
                         </a>
                     </span>
                 </div>
@@ -63,7 +63,7 @@
             @if (isset($settings['facebook']) || isset($settings['instragram']) || isset($settings['linkedin']))
                     <div class="col-sm-6 col-md-6 col-lg-2">
                         <div class="linksWrapper">
-                            <span class="title">{{ __('follow') }}</span>
+                            <span class="title">{{ __('Follow') }}</span>
 
                             @if (isset($settings['facebook']))
                                 <span class="iconsWrapper">
